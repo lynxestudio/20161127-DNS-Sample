@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A6366EF4-B52A-4B3F-8686-96B295C65F4B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Samples.Networking.GtkDNS\MainWindow.cs">
+    <Files>
+      <File FileName="Samples.Networking.GtkDNS\Program.cs" Line="13" Column="22" />
+      <File FileName="Samples.Networking.GtkDNS\MainWindow.cs" Line="74" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Samples.Networking.GtkDNS PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
