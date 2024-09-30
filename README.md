@@ -48,16 +48,16 @@ Lo más utilizado de esta clase es:</p>
 <p align="justify">En el código de la aplicación primero se distingue entre una dirección IP y el nombre de un host, según esta distinción se obtiene una clase <b>IPHostEntry</b> o bien un arreglo de clase <b>IPAddress</b>, al invocar el método <i>GetHostEntry</i> en el primer caso o el método <i>GetHostAddress</i> en el segundo.</p>
 <div>
 <pre>
-	if (IsIP(hostName))
-					{
-						IPAddress ip = IPAddress.Parse(hostName);
-						IPHostEntry ipInfo = Dns.GetHostEntry(ip);
-						ipAddresses = ipInfo.AddressList;
-					}
-					else
-					{
-						ipAddresses = Dns.GetHostAddresses(hostName);
-					}
+if (IsIP(hostName))
+{
+	IPAddress ip = IPAddress.Parse(hostName);
+	IPHostEntry ipInfo = Dns.GetHostEntry(ip);
+	ipAddresses = ipInfo.AddressList;
+}
+else
+{
+ipAddresses = Dns.GetHostAddresses(hostName);
+}
 
 </pre>
 </div><br>
